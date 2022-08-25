@@ -1,0 +1,94 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+.text-underline {
+    height: 4px;
+    background-color: #DE746D;
+}
+
+.btn-primary {
+    text-align: center;
+    text-decoration: none;
+    color: #DE746D;
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid #DE746D;
+    float: left;
+    transition: all 200ms ease-in;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #DE746D;
+}
+
+/* NAV */
+
+nav {
+    font-weight: 300;
+}
+.side-bar { 
+    background-color: #F6F6F6;
+    z-index: 10;
+    width: 300px;
+}
+.search-box {
+    background-color: #D9D9D9;
+}
+.search-box input {
+    border: 0;
+    outline: none;
+}
+ul li {
+    list-style-type: none;
+}
+ul a {
+    text-decoration: none;
+    color: #3D4449;
+    transition: all 200ms ease-in;
+}
+ul a:hover {
+    color: #DE746D;
+}
+.bottom-delimiter {
+    border-bottom: 1px solid black;
+}
+.generic-delimiter {
+    height: 2px;
+    background-color: #CCCCCC;
+}
+
+/* MAIN CONTENT */
+
+.header-box {
+    padding-bottom: 20px;
+    border-bottom: 5px solid #DE746D;
+}
+.content-container {
+    margin-top: 80px;
+}
+.content-container .menu {
+    position: absolute;
+    top: -55px;
+    left: 10px;
+    cursor: pointer;
+}
+.right-container {
+    width: calc(100% - 312px);
+    margin-left: 312px;
+    overflow: visible !important;
+}
+.social-media-container img  {
+    width: 20px;
+    height: auto;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    .side-bar {
+      left: 0px;
+    }
+    .right-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}
