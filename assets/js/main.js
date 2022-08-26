@@ -17,7 +17,7 @@ const handleMenuClick = () => {
     } else if(currenSideBarLeft == '-300px') {
         newLeft = windowsFullWidth > 768 ? '12px' : '0px';
         const contentParentWidth = contentContainer.parent().outerWidth();
-        newContainerWidth =  `${contentParentWidth - 312}px`;
+        newContainerWidth =  `${contentParentWidth - 336}px`;
         newContainerMarginLeft = '312px';
     }
     sideBar.animate({ left: newLeft }, 400);
@@ -39,7 +39,7 @@ const handleWindowsResize = () => {
     let css = {}
 
     if(windowsFullWidth > 768 && currenSideBarLeft !== '-300px') {
-        css = { width: `${contentParentWidth - 312}px`, 'margin-left': '312px' };
+        css = { width: `${contentParentWidth - 336}px`, 'margin-left': '312px' };
     } else {
         css = { width: '100%', 'margin-left': 0 };
     }

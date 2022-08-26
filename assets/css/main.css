@@ -6,6 +6,10 @@
     background-color: #DE746D;
 }
 
+.txt-primary {
+    color: #DE746D;
+}
+
 .btn-primary {
     text-align: center;
     text-decoration: none;
@@ -15,10 +19,29 @@
     border: 1px solid #DE746D;
     float: left;
     transition: all 200ms ease-in;
+    font-size: 0.9em;
 }
+
 .btn-primary:hover {
     color: white;
     background-color: #DE746D;
+}
+
+.btn-secondary {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #DE746D;
+    padding: 10px 30px;
+    border: 1px solid #DE746D;
+    float: left;
+    transition: all 200ms ease-in;
+    font-size: 0.9em;
+}
+
+.btn-secondary:hover {
+    color: #DE746D;
+    background-color: white;
 }
 
 /* NAV */
@@ -80,6 +103,11 @@ ul a:hover {
 .social-media-container img  {
     width: 20px;
     height: auto;
+}
+
+.form {
+    border: 2px solid #CCCCCC;
+    font-weight: 300;
 }
 
 /* For mobile phones: */
