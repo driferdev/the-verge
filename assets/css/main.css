@@ -113,7 +113,7 @@ ul a:hover {
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
     .side-bar {
-      left: 0px;
+      left: -300px;
     }
     .right-container {
         width: 100%;
